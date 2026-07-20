@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Songsterr Drum Colours</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <main>
+    <header>
+      <div><h1>Songsterr Drum Colours</h1><p>Set colours without changing note-identification data.</p></div>
+      <button id="reset-all" class="danger">Reset all settings</button>
+    </header>
+    <p id="save-status" role="status" aria-live="polite">Loading colour settings…</p>
+    <section id="settings" aria-label="Instrument colour settings"></section>
+  </main>
+  <template id="row-template">
+    <div class="colour-row">
+      <span class="row-name"></span>
+      <span class="preview" aria-hidden="true"></span>
+      <span class="presets" aria-label="Preset colours"></span>
+      <input class="picker" type="color" aria-label="Choose colour">
+      <input class="hex" type="text" inputmode="text" maxlength="7" placeholder="#RRGGBB" aria-label="Hexadecimal colour">
+      <span class="state"></span>
+      <button class="remove" type="button">Remove override</button>
+    </div>
+  </template>
+  <script src="../storage.js"></script>
+  <script src="options.js"></script>
+</body>
+</html>

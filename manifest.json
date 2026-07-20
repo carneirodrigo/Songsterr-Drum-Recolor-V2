@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "Songsterr Drum Colours",
+  "version": "1.0.0",
+  "description": "Locally recolours recognised drum notation on Songsterr.",
+  "permissions": ["storage", "activeTab"],
+  "host_permissions": ["https://*.songsterr.com/*"],
+  "action": {
+    "default_title": "Songsterr Drum Colours",
+    "default_popup": "popup/popup.html"
+  },
+  "options_ui": {
+    "page": "options/options.html",
+    "open_in_tab": true
+  },
+  "background": {
+    "service_worker": "background.js",
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.songsterr.com/*"],
+      "js": ["identifier.js", "recolor.js", "storage.js", "content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["reference.json"],
+      "matches": ["https://*.songsterr.com/*"]
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "songsterr-drum-colours@local",
+      "strict_min_version": "121.0"
+    }
+  }
+}

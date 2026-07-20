@@ -1,0 +1,892 @@
+{
+  "groups": [
+    {
+      "name": "Drumset",
+      "color": "#FFFFFF",
+      "categories": [
+        {
+          "name": "Bass drum",
+          "color": "#ff2986",
+          "subtypes": [
+            {
+              "name": "Normal",
+              "svg": [
+                "<path d='M 19.65 -3.23 C 20.75 -1.14 19.21 1.28 16.46 2.71 C 13.82 4.14 11.07 4.03 9.86 1.83 C 8.76 -0.26 10.3 -2.9 13.05 -4.22 C 15.69 -5.65 18.44 -5.32 19.65 -3.23 Z' transform='translate(0, 42)'/>"
+              ],
+              "fingerprint": "M C C C C Z",
+              "fullFingerprint": "M C C C C Z",
+              "staffPosition": 1
+            },
+            {
+              "name": "Acoustic",
+              "svg": [
+                "<path d='M 19.65 -3.23 C 20.75 -1.14 19.21 1.28 16.46 2.71 C 13.82 4.14 11.07 4.03 9.86 1.83 C 8.76 -0.26 10.3 -2.9 13.05 -4.22 C 15.69 -5.65 18.44 -5.32 19.65 -3.23 Z' transform='translate(0, 48)'/>"
+              ],
+              "fingerprint": "M C C C C Z",
+              "fullFingerprint": "M C C C C Z",
+              "staffPosition": 0
+            }
+          ]
+        },
+        {
+          "name": "Snare",
+          "color": "#0dc6ff",
+          "subtypes": [
+            {
+              "name": "Normal",
+              "svg": [
+                "<path d='M 19.65 -3.23 C 20.75 -1.14 19.21 1.28 16.46 2.71 C 13.82 4.14 11.07 4.03 9.86 1.83 C 8.76 -0.26 10.3 -2.9 13.05 -4.22 C 15.69 -5.65 18.44 -5.32 19.65 -3.23 Z' transform='translate(0, 18)'/>"
+              ],
+              "fingerprint": "M C C C C Z",
+              "fullFingerprint": "M C C C C Z",
+              "staffPosition": 5
+            },
+            {
+              "name": "Rim shot",
+              "svg": [
+                "<path d='M 15 -4.9 L 20.5 -0.5 L 15 3.9 L 9.5 -0.5 L 15 -4.9 Z' transform='translate(0, 18)'/>"
+              ],
+              "fingerprint": "M L L L L Z",
+              "fullFingerprint": "M L L L L Z",
+              "staffPosition": 5
+            },
+            {
+              "name": "Side stick",
+              "svg": [
+                "<path d='M 13.75 0 L 9.67 -3.62 L 10.33 -4.38 L 14.5 -0.68 L 18.66 -4.38 L 19.34 -3.63 L 15.26 0 L 19.33 3.62 L 18.67 4.38 L 14.5 0.67 L 10.33 4.37 L 9.66 3.62 Z' transform='translate(0, 18)'/>"
+              ],
+              "fingerprint": "M L L L L L L L L L L L Z",
+              "fullFingerprint": "M L L L L L L L L L L L Z",
+              "staffPosition": 5,
+              "bold": false
+            }
+          ]
+        },
+        {
+          "name": "Hi Hat",
+          "color": "#ffffff",
+          "subtypes": [
+            {
+              "name": "Closed",
+              "svg": [
+                "<path d='M 13.75 0 L 9.67 -3.62 L 10.33 -4.38 L 14.5 -0.68 L 18.66 -4.38 L 19.34 -3.63 L 15.26 0 L 19.33 3.62 L 18.67 4.38 L 14.5 0.67 L 10.33 4.37 L 9.66 3.62 Z' transform='translate(0, -6)'/>"
+              ],
+              "fingerprint": "M L L L L L L L L L L L Z",
+              "fullFingerprint": "M L L L L L L L L L L L Z",
+              "staffPosition": 9,
+              "bold": false
+            },
+            {
+              "name": "Open",
+              "svg": [
+                "<path d='M 21.2 0 A 6.7 6.7 0 1 1 7.8 0 A 6.7 6.7 0 0 1 21.2 0 Z M 18.43 4.14 L 14.5 0.66 L 10.6 4.14 A 5.68 5.68 0 0 0 18.43 4.14 Z M 19.09 3.4 A 5.67 5.67 0 0 0 19.09 -3.4 L 15.27 0 L 19.09 3.4 Z M 18.42 -4.15 A 5.68 5.68 0 0 0 10.6 -4.15 L 14.5 -0.68 L 18.41 -4.15 Z M 9.94 -3.4 A 5.67 5.67 0 0 0 9.94 3.4 L 13.75 0 L 9.93 -3.4 Z' transform='translate(0, -6)'/>"
+              ],
+              "fingerprint": "M A A Z M L L A Z M A L L Z M A L L Z M A L L Z",
+              "fullFingerprint": "M A A Z M L L A Z M A L L Z M A L L Z M A L L Z",
+              "staffPosition": 9
+            },
+            {
+              "name": "Foot",
+              "svg": [
+                "<path d='M 13.75 0 L 9.67 -3.62 L 10.33 -4.38 L 14.5 -0.68 L 18.66 -4.38 L 19.34 -3.63 L 15.26 0 L 19.33 3.62 L 18.67 4.38 L 14.5 0.67 L 10.33 4.37 L 9.66 3.62 Z' transform='translate(0, 54)'/>"
+              ],
+              "fingerprint": "M L L L L L L L L L L L Z",
+              "fullFingerprint": "M L L L L L L L L L L L Z",
+              "staffPosition": -1,
+              "bold": false
+            },
+            {
+              "name": "Half",
+              "svg": [
+                "<path d='M 21.3 0 A 6.7 6.7 0 1 1 7.9 0 A 6.7 6.7 0 0 1 21.3 0 Z M 14.6 5.7 A 5.7 5.7 0 0 0 19.18 -3.39 L 10.68 4.15 A 5.68 5.68 0 0 0 14.6 5.7 Z M 14.6 -5.7 A 5.7 5.7 0 0 0 10.02 3.4 L 18.51 -4.14 A 5.68 5.68 0 0 0 14.61 -5.69 Z' transform='translate(0, -6)'/>"
+              ],
+              "fingerprint": "M A A Z M A L A Z M A L A Z",
+              "fullFingerprint": "M A A Z M A L A Z M A L A Z",
+              "staffPosition": 9
+            }
+          ]
+        },
+        {
+          "name": "Tom",
+          "subtypes": [
+            {
+              "name": "Floor",
+              "color": "#ff7a21",
+              "svg": [
+                "<path d='M 19.65 -3.23 C 20.75 -1.14 19.21 1.28 16.46 2.71 C 13.82 4.14 11.07 4.03 9.86 1.83 C 8.76 -0.26 10.3 -2.9 13.05 -4.22 C 15.69 -5.65 18.44 -5.32 19.65 -3.23 Z' transform='translate(0, 30)'/>"
+              ],
+              "fingerprint": "M C C C C Z",
+              "fullFingerprint": "M C C C C Z",
+              "staffPosition": 3
+            },
+            {
+              "name": "Very low",
+              "color": "#ff7a21",
+              "svg": [
+                "<path d='M 19.65 -3.23 C 20.75 -1.14 19.21 1.28 16.46 2.71 C 13.82 4.14 11.07 4.03 9.86 1.83 C 8.76 -0.26 10.3 -2.9 13.05 -4.22 C 15.69 -5.65 18.44 -5.32 19.65 -3.23 Z' transform='translate(0, 36)'/>"
+              ],
+              "fingerprint": "M C C C C Z",
+              "fullFingerprint": "M C C C C Z",
+              "staffPosition": 2
+            },
+            {
+              "name": "Low",
+              "color": "#ff7a21",
+              "svg": [
+                "<path d='M 19.65 -3.23 C 20.75 -1.14 19.21 1.28 16.46 2.71 C 13.82 4.14 11.07 4.03 9.86 1.83 C 8.76 -0.26 10.3 -2.9 13.05 -4.22 C 15.69 -5.65 18.44 -5.32 19.65 -3.23 Z' transform='translate(0, 30)'/>"
+              ],
+              "fingerprint": "M C C C C Z",
+              "fullFingerprint": "M C C C C Z",
+              "staffPosition": 3
+            },
+            {
+              "name": "Mid",
+              "color": "#e1ff21",
+              "svg": [
+                "<path d='M 19.65 -3.23 C 20.75 -1.14 19.21 1.28 16.46 2.71 C 13.82 4.14 11.07 4.03 9.86 1.83 C 8.76 -0.26 10.3 -2.9 13.05 -4.22 C 15.69 -5.65 18.44 -5.32 19.65 -3.23 Z' transform='translate(0, 24)'/>"
+              ],
+              "fingerprint": "M C C C C Z",
+              "fullFingerprint": "M C C C C Z",
+              "staffPosition": 4
+            },
+            {
+              "name": "High",
+              "color": "#59ff38",
+              "svg": [
+                "<path d='M 19.65 -3.23 C 20.75 -1.14 19.21 1.28 16.46 2.71 C 13.82 4.14 11.07 4.03 9.86 1.83 C 8.76 -0.26 10.3 -2.9 13.05 -4.22 C 15.69 -5.65 18.44 -5.32 19.65 -3.23 Z' transform='translate(0, 12)'/>"
+              ],
+              "fingerprint": "M C C C C Z",
+              "fullFingerprint": "M C C C C Z",
+              "staffPosition": 6
+            }
+          ]
+        },
+        {
+          "name": "Crash",
+          "subtypes": [
+            {
+              "name": "Mid",
+              "color": "#ff2986",
+              "svg": [
+                "<path d='M 12.96 0 L 8.53 -4 L 10.02 -5.5 L 14.53 -1.42 L 19.05 -5.5 L 20.53 -4 L 16.1 0 L 20.53 4 L 19.05 5.5 L 14.53 1.42 L 10.02 5.5 L 8.53 4 Z' transform='translate(0, -6)'/>"
+              ],
+              "fingerprint": "M L L L L L L L L L L L Z",
+              "fullFingerprint": "M L L L L L L L L L L L Z",
+              "staffPosition": 9,
+              "bold": true
+            },
+            {
+              "name": "Mid choke",
+              "color": "#ff2986",
+              "svg": [
+                "<path d='M 15.5 -6 A 1 1 0 1 0 13.5 -6 A 1 1 0 1 0 15.5 -6 Z M 12.96 0 L 8.53 -4 L 10.02 -5.5 L 14.53 -1.42 L 19.05 -5.5 L 20.53 -4 L 16.1 0 L 20.53 4 L 19.05 5.5 L 14.53 1.42 L 10.02 5.5 L 8.53 4 Z' transform='translate(0, -6)'/>"
+              ],
+              "fingerprint": "M A A Z M L L L L L L L L L L L Z",
+              "fullFingerprint": "M A A Z M L L L L L L L L L L L Z",
+              "staffPosition": 9,
+              "bold": true
+            },
+            {
+              "name": "High",
+              "color": "#0dc6ff",
+              "svg": [
+                "<line x1='6' x2='22' y1='-12' y2='-12'/>",
+                "<path d='M 12.96 0 L 8.53 -4 L 10.02 -5.5 L 14.53 -1.42 L 19.05 -5.5 L 20.53 -4 L 16.1 0 L 20.53 4 L 19.05 5.5 L 14.53 1.42 L 10.02 5.5 L 8.53 4 Z' transform='translate(0, -12)'/>"
+              ],
+              "fingerprint": "M L L L L L L L L L L L Z",
+              "fullFingerprint": "M L L L L L L L L L L L Z",
+              "staffPosition": 10,
+              "bold": true
+            },
+            {
+              "name": "High choke",
+              "color": "#0dc6ff",
+              "svg": [
+                "<line x1='6' x2='22' y1='-12' y2='-12'/>",
+                "<path d='M 15.5 -6 A 1 1 0 1 0 13.5 -6 A 1 1 0 1 0 15.5 -6 Z M 12.96 0 L 8.53 -4 L 10.02 -5.5 L 14.53 -1.42 L 19.05 -5.5 L 20.53 -4 L 16.1 0 L 20.53 4 L 19.05 5.5 L 14.53 1.42 L 10.02 5.5 L 8.53 4 Z' transform='translate(0, -12)'/>"
+              ],
+              "fingerprint": "M A A Z M L L L L L L L L L L L Z",
+              "fullFingerprint": "M A A Z M L L L L L L L L L L L Z",
+              "staffPosition": 10,
+              "bold": true
+            }
+          ]
+        },
+        {
+          "name": "Splash",
+          "color": "#e1ff21",
+          "subtypes": [
+            {
+              "name": "Open",
+              "svg": [
+                "<line x1='6' x2='22' y1='-12' y2='-12'/>",
+                "<path d='M 13.75 0 L 9.67 -3.62 L 10.33 -4.38 L 14.5 -0.68 L 18.66 -4.38 L 19.34 -3.63 L 15.26 0 L 19.33 3.62 L 18.67 4.38 L 14.5 0.67 L 10.33 4.37 L 9.66 3.62 Z' transform='translate(0, -12)'/>"
+              ],
+              "fingerprint": "M L L L L L L L L L L L Z",
+              "fullFingerprint": "M L L L L L L L L L L L Z",
+              "staffPosition": 10,
+              "bold": false
+            },
+            {
+              "name": "Choke",
+              "svg": [
+                "<line x1='6' x2='22' y1='-12' y2='-12'/>",
+                "<path d='M 15.5 -6 A 1 1 0 1 0 13.5 -6 A 1 1 0 1 0 15.5 -6 Z M 13.75 0 L 9.67 -3.62 L 10.33 -4.38 L 14.5 -0.68 L 18.66 -4.38 L 19.34 -3.63 L 15.26 0 L 19.33 3.62 L 18.67 4.38 L 14.5 0.67 L 10.33 4.37 L 9.66 3.62 Z' transform='translate(0, -12)'/>"
+              ],
+              "fingerprint": "M A A Z M L L L L L L L L L L L Z",
+              "fullFingerprint": "M A A Z M L L L L L L L L L L L Z",
+              "staffPosition": 10,
+              "bold": false
+            }
+          ]
+        },
+        {
+          "name": "Ride",
+          "color": "#fc3dff",
+          "subtypes": [
+            {
+              "name": "Cymbal",
+              "svg": [
+                "<path d='M 13.75 0 L 9.67 -3.62 L 10.33 -4.38 L 14.5 -0.68 L 18.66 -4.38 L 19.34 -3.63 L 15.26 0 L 19.33 3.62 L 18.67 4.38 L 14.5 0.67 L 10.33 4.37 L 9.66 3.62 Z' transform='translate(0, 0)'/>"
+              ],
+              "fingerprint": "M L L L L L L L L L L L Z",
+              "fullFingerprint": "M L L L L L L L L L L L Z",
+              "staffPosition": 8,
+              "bold": false
+            },
+            {
+              "name": "Bell",
+              "svg": [
+                "<path d='M 15 -4.9 L 20.5 -0.5 L 15 3.9 L 9.5 -0.5 L 15 -4.9 Z' transform='translate(0, 0)'/>"
+              ],
+              "fingerprint": "M L L L L Z",
+              "fullFingerprint": "M L L L L Z",
+              "staffPosition": 8
+            },
+            {
+              "name": "Edge",
+              "svg": [
+                "<path d='M8 -12.5 h 8 l 5 -5'/>",
+                "<path d='M 13.75 0 L 9.67 -3.62 L 10.33 -4.38 L 14.5 -0.68 L 18.66 -4.38 L 19.34 -3.63 L 15.26 0 L 19.33 3.62 L 18.67 4.38 L 14.5 0.67 L 10.33 4.37 L 9.66 3.62 Z' transform='translate(0, 0)'/>"
+              ],
+              "fingerprint": "M L L L L L L L L L L L Z",
+              "fullFingerprint": "M H L M L L L L L L L L L L L Z",
+              "staffPosition": 8,
+              "bold": false
+            },
+            {
+              "name": "Edge 2",
+              "svg": [
+                "<path d='M8 -0.5 h 8 l 5 -5'/>",
+                "<path d='M 13.75 0 L 9.67 -3.62 L 10.33 -4.38 L 14.5 -0.68 L 18.66 -4.38 L 19.34 -3.63 L 15.26 0 L 19.33 3.62 L 18.67 4.38 L 14.5 0.67 L 10.33 4.37 L 9.66 3.62 Z' transform='translate(0, 12)'/>"
+              ],
+              "fingerprint": "M L L L L L L L L L L L Z",
+              "fullFingerprint": "M H L M L L L L L L L L L L L Z",
+              "staffPosition": 6,
+              "bold": false
+            },
+            {
+              "name": "Choke",
+              "svg": [
+                "<path d='M 15.5 -6 A 1 1 0 1 0 13.5 -6 A 1 1 0 1 0 15.5 -6 Z M 13.75 0 L 9.67 -3.62 L 10.33 -4.38 L 14.5 -0.68 L 18.66 -4.38 L 19.34 -3.63 L 15.26 0 L 19.33 3.62 L 18.67 4.38 L 14.5 0.67 L 10.33 4.37 L 9.66 3.62 Z' transform='translate(0, 0)'/>"
+              ],
+              "fingerprint": "M A A Z M L L L L L L L L L L L Z",
+              "fullFingerprint": "M A A Z M L L L L L L L L L L L Z",
+              "staffPosition": 8,
+              "bold": false
+            }
+          ]
+        },
+        {
+          "name": "China",
+          "color": "#59ff38",
+          "subtypes": [
+            {
+              "name": "Open",
+              "svg": [
+                "<line x1='6' x2='22' y1='-12' y2='-12'/>",
+                "<path d='M 6.7 -6.66 L 14.5 -11.46 L 22.3 -6.66 H 20.38 L 14.5 -10.28 L 8.62 -6.66 H 6.7 Z M 12.96 0 L 8.53 -4 L 10.02 -5.5 L 14.53 -1.42 L 19.05 -5.5 L 20.53 -4 L 16.1 0 L 20.53 4 L 19.05 5.5 L 14.53 1.42 L 10.02 5.5 L 8.53 4 Z' transform='translate(0, -18)'/>"
+              ],
+              "fingerprint": "M L L H L L H Z M L L L L L L L L L L L Z",
+              "fullFingerprint": "M L L H L L H Z M L L L L L L L L L L L Z",
+              "staffPosition": 11,
+              "bold": true
+            },
+            {
+              "name": "Choke",
+              "svg": [
+                "<line x1='6' x2='22' y1='-12' y2='-12'/>",
+                "<path d='M 15.5 -6 A 1 1 0 1 0 13.5 -6 A 1 1 0 1 0 15.5 -6 Z M 6.7 -6.66 L 14.5 -11.46 L 22.3 -6.66 H 20.38 L 14.5 -10.28 L 8.62 -6.66 H 6.7 Z M 12.96 0 L 8.53 -4 L 10.02 -5.5 L 14.53 -1.42 L 19.05 -5.5 L 20.53 -4 L 16.1 0 L 20.53 4 L 19.05 5.5 L 14.53 1.42 L 10.02 5.5 L 8.53 4 Z' transform='translate(0, -18)'/>"
+              ],
+              "fingerprint": "M A A Z M L L H L L H Z M L L L L L L L L L L L Z",
+              "fullFingerprint": "M A A Z M L L H L L H Z M L L L L L L L L L L L Z",
+              "staffPosition": 11,
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electric",
+      "categories": [
+        {
+          "name": "Snare",
+          "color": "#0dc6ff",
+          "subtypes": [
+            {
+              "name": "Snare",
+              "svg": [
+                "<path d='M 9 -1 L 14.85 -6.85 L 20.7 -1 L 14.85 4.85 L 9 -1 M 11.6 0.3 L 13.55 2.25 L 18.1 -2.3 L 16.15 -4.25 Z' transform='translate(0, 18)'/>"
+              ],
+              "fingerprint": "M L L L L M L L L Z",
+              "fullFingerprint": "M L L L L M L L L Z",
+              "staffPosition": 5
+            }
+          ]
+        },
+        {
+          "name": "High Q",
+          "subtypes": [
+            {
+              "name": "High Q",
+              "svg": [
+                "<path d='M 9 -1 L 14.85 -6.85 L 20.7 -1 L 14.85 4.85 L 9 -1 M 11.6 0.3 L 13.55 2.25 L 18.1 -2.3 L 16.15 -4.25 Z' transform='translate(0, 36)'/>"
+              ],
+              "fingerprint": "M L L L L M L L L Z",
+              "fullFingerprint": "M L L L L M L L L Z",
+              "staffPosition": 2
+            }
+          ]
+        },
+        {
+          "name": "Slap",
+          "subtypes": [
+            {
+              "name": "Slap",
+              "svg": [
+                "<path d='M 19.65 -3.23 C 20.75 -1.14 19.21 1.28 16.46 2.71 C 13.82 4.14 11.07 4.03 9.86 1.83 C 8.76 -0.26 10.3 -2.9 13.05 -4.22 C 15.69 -5.65 18.44 -5.32 19.65 -3.23 Z' transform='translate(0, 36)'/>"
+              ],
+              "fingerprint": "M C C C C Z",
+              "fullFingerprint": "M C C C C Z",
+              "staffPosition": 2
+            }
+          ]
+        },
+        {
+          "name": "Scratch",
+          "subtypes": [
+            {
+              "name": "Push",
+              "svg": [
+                "<path d='M 13.75 0 L 9.67 -3.62 L 10.33 -4.38 L 14.5 -0.68 L 18.66 -4.38 L 19.34 -3.63 L 15.26 0 L 19.33 3.62 L 18.67 4.38 L 14.5 0.67 L 10.33 4.37 L 9.66 3.62 Z' transform='translate(0, 12)'/>"
+              ],
+              "fingerprint": "M L L L L L L L L L L L Z",
+              "fullFingerprint": "M L L L L L L L L L L L Z",
+              "staffPosition": 6,
+              "bold": false
+            },
+            {
+              "name": "Pull",
+              "svg": [
+                "<line x1='6' x2='22' y1='-12' y2='-12'/>",
+                "<path d='M 13.75 0 L 9.67 -3.62 L 10.33 -4.38 L 14.5 -0.68 L 18.66 -4.38 L 19.34 -3.63 L 15.26 0 L 19.33 3.62 L 18.67 4.38 L 14.5 0.67 L 10.33 4.37 L 9.66 3.62 Z' transform='translate(0, -18)'/>"
+              ],
+              "fingerprint": "M L L L L L L L L L L L Z",
+              "fullFingerprint": "M L L L L L L L L L L L Z",
+              "staffPosition": 11,
+              "bold": false
+            }
+          ]
+        },
+        {
+          "name": "Square click",
+          "subtypes": [
+            {
+              "name": "Square click",
+              "svg": [
+                "<path d='M 13.75 0 L 9.67 -3.62 L 10.33 -4.38 L 14.5 -0.68 L 18.66 -4.38 L 19.34 -3.63 L 15.26 0 L 19.33 3.62 L 18.67 4.38 L 14.5 0.67 L 10.33 4.37 L 9.66 3.62 Z' transform='translate(0, 18)'/>"
+              ],
+              "fingerprint": "M L L L L L L L L L L L Z",
+              "fullFingerprint": "M L L L L L L L L L L L Z",
+              "staffPosition": 5,
+              "bold": false
+            }
+          ]
+        },
+        {
+          "name": "Metronome",
+          "subtypes": [
+            {
+              "name": "Click",
+              "svg": [
+                "<path d='M 13.75 0 L 9.67 -3.62 L 10.33 -4.38 L 14.5 -0.68 L 18.66 -4.38 L 19.34 -3.63 L 15.26 0 L 19.33 3.62 L 18.67 4.38 L 14.5 0.67 L 10.33 4.37 L 9.66 3.62 Z' transform='translate(0, 24)'/>"
+              ],
+              "fingerprint": "M L L L L L L L L L L L Z",
+              "fullFingerprint": "M L L L L L L L L L L L Z",
+              "staffPosition": 4,
+              "bold": false
+            },
+            {
+              "name": "Bell",
+              "svg": [
+                "<path d='M 15 -4.9 L 20.5 -0.5 L 15 3.9 L 9.5 -0.5 L 15 -4.9 Z' transform='translate(0, 24)'/>"
+              ],
+              "fingerprint": "M L L L L Z",
+              "fullFingerprint": "M L L L L Z",
+              "staffPosition": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Percussion",
+      "categories": [
+        {
+          "name": "Hand clap",
+          "subtypes": [
+            {
+              "name": "Hand clap",
+              "svg": [
+                "<path d='M 19.65 -3.23 C 20.75 -1.14 19.21 1.28 16.46 2.71 C 13.82 4.14 11.07 4.03 9.86 1.83 C 8.76 -0.26 10.3 -2.9 13.05 -4.22 C 15.69 -5.65 18.44 -5.32 19.65 -3.23 Z' transform='translate(0, 18)'/>"
+              ],
+              "fingerprint": "M C C C C Z",
+              "fullFingerprint": "M C C C C Z",
+              "staffPosition": 5
+            }
+          ]
+        },
+        {
+          "name": "Sticks",
+          "subtypes": [
+            {
+              "name": "Sticks",
+              "svg": [
+                "<path d='M 16.45 2.7 C 13.8 4.13 11.06 4.02 9.85 1.82 C 9.1 0.4 9.57 -1.25 10.78 -2.58 L 6.66 -5.61 L 7.32 -6.35 L 11.52 -3.27 C 11.97 -3.64 12.48 -3.97 13.04 -4.23 C 15.68 -5.66 18.43 -5.33 19.64 -3.24 C 20.49 -1.64 19.77 0.18 18.13 1.58 L 22.32 4.65 L 21.66 5.39 L 17.3 2.2 C 17.03 2.38 16.75 2.55 16.45 2.7 Z' transform='translate(0, 18)'/>"
+              ],
+              "fingerprint": "M C C L L L C C C L L L C Z",
+              "fullFingerprint": "M C C L L L C C C L L L C Z",
+              "staffPosition": 5
+            }
+          ]
+        },
+        {
+          "name": "Tambourine",
+          "subtypes": [
+            {
+              "name": "Tambourine",
+              "svg": [
+                "<path d='M 8.96 3.52 L 14.69 -4.85 L 20.45 3.52 H 8.96 Z' transform='translate(0, 18)'/>"
+              ],
+              "fingerprint": "M L L H Z",
+              "fullFingerprint": "M L L H Z",
+              "staffPosition": 5
+            }
+          ]
+        },
+        {
+          "name": "Vibraslap",
+          "subtypes": [
+            {
+              "name": "Vibraslap",
+              "svg": [
+                "<line x1='6' x2='22' y1='60' y2='60'/>",
+                "<path d='M 10 0 A 5 5 0 0 1 20 0 L 15 4 Z' transform='translate(0, 60)'/>"
+              ],
+              "fingerprint": "M A L Z",
+              "fullFingerprint": "M A L Z",
+              "staffPosition": -2
+            }
+          ]
+        },
+        {
+          "name": "Cowbell",
+          "subtypes": [
+            {
+              "name": "Low",
+              "svg": [
+                "<path d='M 8.96 3.52 L 14.69 -4.85 L 20.45 3.52 H 8.96 Z' transform='translate(0, 6)'/>"
+              ],
+              "fingerprint": "M L L H Z",
+              "fullFingerprint": "M L L H Z",
+              "staffPosition": 7
+            },
+            {
+              "name": "Normal",
+              "svg": [
+                "<path d='M 8.96 3.52 L 14.69 -4.85 L 20.45 3.52 H 8.96 Z' transform='translate(0, 0)'/>"
+              ],
+              "fingerprint": "M L L H Z",
+              "fullFingerprint": "M L L H Z",
+              "staffPosition": 8
+            },
+            {
+              "name": "High",
+              "svg": [
+                "<path d='M 8.96 3.52 L 14.69 -4.85 L 20.45 3.52 H 8.96 Z' transform='translate(0, -6)'/>"
+              ],
+              "fingerprint": "M L L H Z",
+              "fullFingerprint": "M L L H Z",
+              "staffPosition": 9
+            }
+          ]
+        },
+        {
+          "name": "Bongo",
+          "subtypes": [
+            {
+              "name": "High",
+              "svg": [
+                "<path d='M 19.65 -3.23 C 20.75 -1.14 19.21 1.28 16.46 2.71 C 13.82 4.14 11.07 4.03 9.86 1.83 C 8.76 -0.26 10.3 -2.9 13.05 -4.22 C 15.69 -5.65 18.44 -5.32 19.65 -3.23 Z' transform='translate(0, 24)'/>"
+              ],
+              "fingerprint": "M C C C C Z",
+              "fullFingerprint": "M C C C C Z",
+              "staffPosition": 4
+            },
+            {
+              "name": "Low",
+              "svg": [
+                "<path d='M 19.65 -3.23 C 20.75 -1.14 19.21 1.28 16.46 2.71 C 13.82 4.14 11.07 4.03 9.86 1.83 C 8.76 -0.26 10.3 -2.9 13.05 -4.22 C 15.69 -5.65 18.44 -5.32 19.65 -3.23 Z' transform='translate(0, 36)'/>"
+              ],
+              "fingerprint": "M C C C C Z",
+              "fullFingerprint": "M C C C C Z",
+              "staffPosition": 2
+            }
+          ]
+        },
+        {
+          "name": "Conga",
+          "subtypes": [
+            {
+              "name": "Mute high",
+              "svg": [
+                "<path d='M 13.75 0 L 9.67 -3.62 L 10.33 -4.38 L 14.5 -0.68 L 18.66 -4.38 L 19.34 -3.63 L 15.26 0 L 19.33 3.62 L 18.67 4.38 L 14.5 0.67 L 10.33 4.37 L 9.66 3.62 Z' transform='translate(0, 54)'/>"
+              ],
+              "fingerprint": "M L L L L L L L L L L L Z",
+              "fullFingerprint": "M L L L L L L L L L L L Z",
+              "staffPosition": -1,
+              "bold": false
+            },
+            {
+              "name": "Open high",
+              "svg": [
+                "<path d='M 19.65 -3.23 C 20.75 -1.14 19.21 1.28 16.46 2.71 C 13.82 4.14 11.07 4.03 9.86 1.83 C 8.76 -0.26 10.3 -2.9 13.05 -4.22 C 15.69 -5.65 18.44 -5.32 19.65 -3.23 Z' transform='translate(0, 54)'/>"
+              ],
+              "fingerprint": "M C C C C Z",
+              "fullFingerprint": "M C C C C Z",
+              "staffPosition": -1
+            },
+            {
+              "name": "Low",
+              "svg": [
+                "<line x1='6' x2='22' y1='60' y2='60'/>",
+                "<path d='M 19.65 -3.23 C 20.75 -1.14 19.21 1.28 16.46 2.71 C 13.82 4.14 11.07 4.03 9.86 1.83 C 8.76 -0.26 10.3 -2.9 13.05 -4.22 C 15.69 -5.65 18.44 -5.32 19.65 -3.23 Z' transform='translate(0, 60)'/>"
+              ],
+              "fingerprint": "M C C C C Z",
+              "fullFingerprint": "M C C C C Z",
+              "staffPosition": -2
+            }
+          ]
+        },
+        {
+          "name": "Timbale",
+          "subtypes": [
+            {
+              "name": "High",
+              "svg": [
+                "<path d='M 19.65 -3.23 C 20.75 -1.14 19.21 1.28 16.46 2.71 C 13.82 4.14 11.07 4.03 9.86 1.83 C 8.76 -0.26 10.3 -2.9 13.05 -4.22 C 15.69 -5.65 18.44 -5.32 19.65 -3.23 Z' transform='translate(0, 48)'/>"
+              ],
+              "fingerprint": "M C C C C Z",
+              "fullFingerprint": "M C C C C Z",
+              "staffPosition": 0
+            },
+            {
+              "name": "Low",
+              "svg": [
+                "<path d='M 19.65 -3.23 C 20.75 -1.14 19.21 1.28 16.46 2.71 C 13.82 4.14 11.07 4.03 9.86 1.83 C 8.76 -0.26 10.3 -2.9 13.05 -4.22 C 15.69 -5.65 18.44 -5.32 19.65 -3.23 Z' transform='translate(0, 54)'/>"
+              ],
+              "fingerprint": "M C C C C Z",
+              "fullFingerprint": "M C C C C Z",
+              "staffPosition": -1
+            }
+          ]
+        },
+        {
+          "name": "Surdo",
+          "subtypes": [
+            {
+              "name": "Mute",
+              "svg": [
+                "<line x1='6' x2='22' y1='60' y2='60'/>",
+                "<path d='M 13.75 0 L 9.67 -3.62 L 10.33 -4.38 L 14.5 -0.68 L 18.66 -4.38 L 19.34 -3.63 L 15.26 0 L 19.33 3.62 L 18.67 4.38 L 14.5 0.67 L 10.33 4.37 L 9.66 3.62 Z' transform='translate(0, 60)'/>"
+              ],
+              "fingerprint": "M L L L L L L L L L L L Z",
+              "fullFingerprint": "M L L L L L L L L L L L Z",
+              "staffPosition": -2,
+              "bold": false
+            },
+            {
+              "name": "Open",
+              "svg": [
+                "<line x1='6' x2='22' y1='60' y2='60'/>",
+                "<path d='M 19.65 -3.23 C 20.75 -1.14 19.21 1.28 16.46 2.71 C 13.82 4.14 11.07 4.03 9.86 1.83 C 8.76 -0.26 10.3 -2.9 13.05 -4.22 C 15.69 -5.65 18.44 -5.32 19.65 -3.23 Z' transform='translate(0, 60)'/>"
+              ],
+              "fingerprint": "M C C C C Z",
+              "fullFingerprint": "M C C C C Z",
+              "staffPosition": -2
+            }
+          ]
+        },
+        {
+          "name": "Agogo",
+          "subtypes": [
+            {
+              "name": "High",
+              "svg": [
+                "<line x1='6' x2='22' y1='60' y2='60'/>",
+                "<path d='M 15 -4.9 L 20.5 -0.5 L 15 3.9 L 9.5 -0.5 L 15 -4.9 Z' transform='translate(0, 60)'/>"
+              ],
+              "fingerprint": "M L L L L Z",
+              "fullFingerprint": "M L L L L Z",
+              "staffPosition": -2
+            },
+            {
+              "name": "Low",
+              "svg": [
+                "<line x1='6' x2='22' y1='60' y2='60'/>",
+                "<path d='M 15 -4.9 L 20.5 -0.5 L 15 3.9 L 9.5 -0.5 L 15 -4.9 Z' transform='translate(0, 66)'/>"
+              ],
+              "fingerprint": "M L L L L Z",
+              "fullFingerprint": "M L L L L Z",
+              "staffPosition": -3
+            }
+          ]
+        },
+        {
+          "name": "Wood block",
+          "subtypes": [
+            {
+              "name": "High",
+              "svg": [
+                "<path d='M 8.96 3.52 L 14.69 -4.85 L 20.45 3.52 H 8.96 Z' transform='translate(0, 12)'/>"
+              ],
+              "fingerprint": "M L L H Z",
+              "fullFingerprint": "M L L H Z",
+              "staffPosition": 6
+            },
+            {
+              "name": "Low",
+              "svg": [
+                "<path d='M 8.96 3.52 L 14.69 -4.85 L 20.45 3.52 H 8.96 Z' transform='translate(0, 18)'/>"
+              ],
+              "fingerprint": "M L L H Z",
+              "fullFingerprint": "M L L H Z",
+              "staffPosition": 5
+            }
+          ]
+        },
+        {
+          "name": "Claves",
+          "subtypes": [
+            {
+              "name": "Claves",
+              "svg": [
+                "<path d='M 19.65 -3.23 C 20.75 -1.14 19.21 1.28 16.46 2.71 C 13.82 4.14 11.07 4.03 9.86 1.83 C 8.76 -0.26 10.3 -2.9 13.05 -4.22 C 15.69 -5.65 18.44 -5.32 19.65 -3.23 Z' transform='translate(0, 30)'/>"
+              ],
+              "fingerprint": "M C C C C Z",
+              "fullFingerprint": "M C C C C Z",
+              "staffPosition": 3
+            }
+          ]
+        },
+        {
+          "name": "Jingle bell",
+          "subtypes": [
+            {
+              "name": "Jingle bell",
+              "svg": [
+                "<line x1='6' x2='22' y1='-12' y2='-12'/>",
+                "<path d='M 19.65 -3.23 C 20.75 -1.14 19.21 1.28 16.46 2.71 C 13.82 4.14 11.07 4.03 9.86 1.83 C 8.76 -0.26 10.3 -2.9 13.05 -4.22 C 15.69 -5.65 18.44 -5.32 19.65 -3.23 Z' transform='translate(0, -12)'/>"
+              ],
+              "fingerprint": "M C C C C Z",
+              "fullFingerprint": "M C C C C Z",
+              "staffPosition": 10
+            }
+          ]
+        },
+        {
+          "name": "Bell tree",
+          "subtypes": [
+            {
+              "name": "Bell tree",
+              "svg": [
+                "<line x1='6' x2='22' y1='-12' y2='-12'/>",
+                "<path d='M 10 0 A 5 5 0 0 1 20 0 L 15 4 Z' transform='translate(0, -12)'/>"
+              ],
+              "fingerprint": "M A L Z",
+              "fullFingerprint": "M A L Z",
+              "staffPosition": 10
+            }
+          ]
+        },
+        {
+          "name": "Cabasa",
+          "subtypes": [
+            {
+              "name": "Cabasa",
+              "svg": [
+                "<path d='M 19.65 -3.23 C 20.75 -1.14 19.21 1.28 16.46 2.71 C 13.82 4.14 11.07 4.03 9.86 1.83 C 8.76 -0.26 10.3 -2.9 13.05 -4.22 C 15.69 -5.65 18.44 -5.32 19.65 -3.23 Z' transform='translate(0, 54)'/>"
+              ],
+              "fingerprint": "M C C C C Z",
+              "fullFingerprint": "M C C C C Z",
+              "staffPosition": -1
+            }
+          ]
+        },
+        {
+          "name": "Maracas",
+          "subtypes": [
+            {
+              "name": "Maracas",
+              "svg": [
+                "<path d='M 15 -4.9 L 20.5 -0.5 L 15 3.9 L 9.5 -0.5 L 15 -4.9 Z' transform='translate(0, 42)'/>"
+              ],
+              "fingerprint": "M L L L L Z",
+              "fullFingerprint": "M L L L L Z",
+              "staffPosition": 1
+            }
+          ]
+        },
+        {
+          "name": "Shaker",
+          "subtypes": [
+            {
+              "name": "Shaker",
+              "svg": [
+                "<line x1='6' x2='22' y1='-12' y2='-12'/>",
+                "<path d='M 19.65 -3.23 C 20.75 -1.14 19.21 1.28 16.46 2.71 C 13.82 4.14 11.07 4.03 9.86 1.83 C 8.76 -0.26 10.3 -2.9 13.05 -4.22 C 15.69 -5.65 18.44 -5.32 19.65 -3.23 Z' transform='translate(0, -12)'/>"
+              ],
+              "fingerprint": "M C C C C Z",
+              "fullFingerprint": "M C C C C Z",
+              "staffPosition": 10
+            }
+          ]
+        },
+        {
+          "name": "Whistle",
+          "subtypes": [
+            {
+              "name": "Short",
+              "svg": [
+                "<line x1='6' x2='22' y1='60' y2='60'/>",
+                "<path d='M 19.65 -3.23 C 20.75 -1.14 19.21 1.28 16.46 2.71 C 13.82 4.14 11.07 4.03 9.86 1.83 C 8.76 -0.26 10.3 -2.9 13.05 -4.22 C 15.69 -5.65 18.44 -5.32 19.65 -3.23 Z' transform='translate(0, 60)'/>"
+              ],
+              "fingerprint": "M C C C C Z",
+              "fullFingerprint": "M C C C C Z",
+              "staffPosition": -2
+            },
+            {
+              "name": "Long",
+              "svg": [
+                "<line x1='6' x2='22' y1='60' y2='60'/>",
+                "<path d='M 10 0 A 5 5 0 0 1 20 0 L 15 4 Z' transform='translate(0, 66)'/>"
+              ],
+              "fingerprint": "M A L Z",
+              "fullFingerprint": "M A L Z",
+              "staffPosition": -3
+            }
+          ]
+        },
+        {
+          "name": "Guiro",
+          "subtypes": [
+            {
+              "name": "Short",
+              "svg": [
+                "<line x1='6' x2='22' y1='-12' y2='-12'/>",
+                "<path d='M 19.65 -3.23 C 20.75 -1.14 19.21 1.28 16.46 2.71 C 13.82 4.14 11.07 4.03 9.86 1.83 C 8.76 -0.26 10.3 -2.9 13.05 -4.22 C 15.69 -5.65 18.44 -5.32 19.65 -3.23 Z' transform='translate(0, -18)'/>"
+              ],
+              "fingerprint": "M C C C C Z",
+              "fullFingerprint": "M C C C C Z",
+              "staffPosition": 11
+            },
+            {
+              "name": "Long",
+              "svg": [
+                "<line x1='6' x2='22' y1='-12' y2='-12'/>",
+                "<path d='M 19.65 -3.23 C 20.75 -1.14 19.21 1.28 16.46 2.71 C 13.82 4.14 11.07 4.03 9.86 1.83 C 8.76 -0.26 10.3 -2.9 13.05 -4.22 C 15.69 -5.65 18.44 -5.32 19.65 -3.23 Z' transform='translate(0, -12)'/>"
+              ],
+              "fingerprint": "M C C C C Z",
+              "fullFingerprint": "M C C C C Z",
+              "staffPosition": 10
+            }
+          ]
+        },
+        {
+          "name": "Cuica",
+          "subtypes": [
+            {
+              "name": "Mute",
+              "svg": [
+                "<path d='M 13.75 0 L 9.67 -3.62 L 10.33 -4.38 L 14.5 -0.68 L 18.66 -4.38 L 19.34 -3.63 L 15.26 0 L 19.33 3.62 L 18.67 4.38 L 14.5 0.67 L 10.33 4.37 L 9.66 3.62 Z' transform='translate(0, 54)'/>"
+              ],
+              "fingerprint": "M L L L L L L L L L L L Z",
+              "fullFingerprint": "M L L L L L L L L L L L Z",
+              "staffPosition": -1,
+              "bold": false
+            },
+            {
+              "name": "Open",
+              "svg": [
+                "<path d='M 19.65 -3.23 C 20.75 -1.14 19.21 1.28 16.46 2.71 C 13.82 4.14 11.07 4.03 9.86 1.83 C 8.76 -0.26 10.3 -2.9 13.05 -4.22 C 15.69 -5.65 18.44 -5.32 19.65 -3.23 Z' transform='translate(0, 54)'/>"
+              ],
+              "fingerprint": "M C C C C Z",
+              "fullFingerprint": "M C C C C Z",
+              "staffPosition": -1
+            }
+          ]
+        },
+        {
+          "name": "Triangle",
+          "subtypes": [
+            {
+              "name": "Mute",
+              "svg": [
+                "<path d='M 13.75 0 L 9.67 -3.62 L 10.33 -4.38 L 14.5 -0.68 L 18.66 -4.38 L 19.34 -3.63 L 15.26 0 L 19.33 3.62 L 18.67 4.38 L 14.5 0.67 L 10.33 4.37 L 9.66 3.62 Z' transform='translate(0, -6)'/>"
+              ],
+              "fingerprint": "M L L L L L L L L L L L Z",
+              "fullFingerprint": "M L L L L L L L L L L L Z",
+              "staffPosition": 9,
+              "bold": false
+            },
+            {
+              "name": "Open",
+              "svg": [
+                "<path d='M 19.65 -3.23 C 20.75 -1.14 19.21 1.28 16.46 2.71 C 13.82 4.14 11.07 4.03 9.86 1.83 C 8.76 -0.26 10.3 -2.9 13.05 -4.22 C 15.69 -5.65 18.44 -5.32 19.65 -3.23 Z' transform='translate(0, -6)'/>"
+              ],
+              "fingerprint": "M C C C C Z",
+              "fullFingerprint": "M C C C C Z",
+              "staffPosition": 9
+            }
+          ]
+        },
+        {
+          "name": "Castanets",
+          "subtypes": [
+            {
+              "name": "Castanets",
+              "svg": [
+                "<line x1='6' x2='22' y1='-12' y2='-12'/>",
+                "<path d='M 10 -4 L 20 -4 L 20 4 L 10 4 Z' transform='translate(0, -18)'/>"
+              ],
+              "fingerprint": "M L L L Z",
+              "fullFingerprint": "M L L L Z",
+              "staffPosition": 11
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
